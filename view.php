@@ -40,13 +40,28 @@ $( function(){
 <body>
 <div id="bbs">
     <h3 class="alert alert-primary"><a href="control.php" style="color:black;">掲示板 ( JSON )</a></h3>
-    <div id="content">
-        <form method="POST" target="myframe">
+    <div id="content"
+        >
+        <form action=""
+            target="myframe"
+            method="POST">
             <div>
-                <span class="title_entry">タイトル</span> <input type="text" name="subject">
+                <span class="title_entry">
+                    タイトル
+                </span>
+                <input
+                    type="text"
+                    name="subject"
+                    >
             </div>
             <div>
-                <span class="title_entry">名前</span> <input type="text" name="name">
+                <span class="title_entry">
+                    名前
+                </span>
+                <input
+                    type="text"
+                    name="name"
+                    >
             </div>
             <div>
                 <textarea id="body" name="body"></textarea>
